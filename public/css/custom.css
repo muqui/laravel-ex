@@ -1,0 +1,21 @@
+.container-fluid{
+  	padding-right: 0px;
+  	padding-left: 0px;
+  }
+
+ .my-nav{position: relative;
+       top:20px;
+       width: 100%;
+       z-index: 999;
+       background:none;
+       border: none;
+       border-radius: 0;
+     
+ }
+
+
+.bg-light{
+	background-color: transparent !important;}
+
+.my-carousel {top: -50px;}
+

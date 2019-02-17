@@ -1,27 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-        <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-        <script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}"></script> 
-        <script type="text/javascript" src="{{ URL::asset('js/popper.min.js') }}"></script> 
-        <script type="text/javascript" src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
-       <style>
-  /* Make the image fully responsive */
-  .carousel-inner img {
-      width: 100%;
-      height: 100%;
-  }
-  </style>
-       
+@extends('layouts.user')
+@section('content')
         
-    </head>
-    <body>
-       
-            
-       <div id="demo" class="carousel slide" data-ride="carousel">
+       <div id="demo" class="carousel slide my-carousel" data-ride="carousel">
 
   <!-- Indicators -->
   <ul class="carousel-indicators">
@@ -51,7 +31,4 @@
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
-            
-       
-    </body>
-</html>
+@endsection
