@@ -31,4 +31,22 @@
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
+<div class="row">
+  <div class="">
+        <a href="#">
+          <img src="{{ URL::asset('image/1.jpg') }}" class="img-fluid" alt="">
+        </a>
+  </div>
+  <div class="">
+        <a href="#">
+          <img src="{{ URL::asset('image/2.jpg') }}" class="img-fluid" alt="">
+        </a>
+  </div>
+  <div class="">
+        <a href="#">
+          <img src="{{ URL::asset('image/3.jpg') }}" class="img-fluid" alt="">
+        </a>
+  </div>
+</div>   
+
 @endsection

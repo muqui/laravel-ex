@@ -13,9 +13,37 @@
      
  }
 
+ .bg-light {
+    background-color: transparent !important;
+}
+ 
+.fuente-verde {
+    color: white;
+    font-weight: bold;
+} 
+.my-carousel {top: -55px;}
 
-.bg-light{
-	background-color: transparent !important;}
+.footer {
+  background-color: black;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 200px;
+}
 
-.my-carousel {top: -50px;}
 
+@media (max-width: 767px) {
+  .my-nav .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .my-nav .navbar-nav .open .dropdown-menu > li > a:hover,
+  .my-nav .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ecdbff;
+  }
+  .my-nav .navbar-nav .open .dropdown-menu > .active > a,
+  .my-nav .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .my-nav .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ecdbff;
+    background-color: #3962ff;
+  }
+}

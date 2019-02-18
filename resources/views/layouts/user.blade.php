@@ -14,22 +14,41 @@
     </head>
     <body>
        
-            <nav class="navbar navbar-expand-lg navbar-light bg-light my-nav" >
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+            <nav class="navbar navbar-expand-lg  bg-light my-nav " >
+  <a class="navbar-brand fuente-verde" href="#">Navbar</a>
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">Menu</span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      
+      <li class="nav-item">
+        <a class="nav-link  fuente-verde" href="#">XBOX ONE</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link   fuente-verde" href="#">PS4</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+        <a class="nav-link   fuente-verde" href="#">XBOX 360</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link   fuente-verde" href="#">PS3</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link   fuente-verde" href="#">WII U</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link   fuente-verde" href="#">SWITCH</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link   fuente-verde" href="#">3DS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link   fuente-verde" href="#">VITA</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link   fuente-verde" href="#">OTROS</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -43,5 +62,31 @@
             @yield('content')
         </div>
 
+<footer class="footer">
+  <div class="container-fluid text-white">
+    
+    <div class="row">
+      <div class=" sticky-top col-12 col-md-4 col-lg-4">
+        
+        <p>
+          Dirección Calle 0000, Tel. 000 000 00
+          correo@correo.com   
+        </p>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4">
+        
+       
+        <p>Verde Pistache 2018. Aviso de Privacidad.
+         
+        </p>
+      </div>
+      <div class="col-12 col-md-4 col-lg-4">
+        <p>
+          Maoa
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
     </body>
 </html>
