@@ -31,21 +31,47 @@
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
-<div class="row">
-  <div class="">
-        <a href="#">
+<div class="container-fluid text-center">
+  <div class ="row">
+    <div class ="col-md-2 col-sm-6">
+       <a href="#" class="img-fluid">
           <img src="{{ URL::asset('image/1.jpg') }}" class="img-fluid" alt="">
         </a>
-  </div>
-  <div class="">
-        <a href="#">
-          <img src="{{ URL::asset('image/2.jpg') }}" class="img-fluid" alt="">
+    </div>
+    <div class ="col-md-2 col-sm-6">
+       <a href="#" class="img-fluid">
+          <img src="{{ URL::asset('image/2.jpg') }}"  class="img-fluid" alt="">
         </a>
-  </div>
-  <div class="">
-        <a href="#">
+    </div>  
+    <div class ="col-md-2 col-sm-6">
+       <a href="#" class="img-fluid">
           <img src="{{ URL::asset('image/3.jpg') }}" class="img-fluid" alt="">
         </a>
+    </div>  
+  
+    <div class ="col-md-2 col-sm-6">
+      <a href="#" class="img-fluid">
+          <img src="{{ URL::asset('image/5.jpg') }}" class="img-fluid" alt="">
+        </a>
+    </div >
+    <div class ="col-md-2 col-sm-6">
+       <a href="#" class="img-fluid">
+          <img src="{{ URL::asset('image/6.jpg') }}" class="img-fluid" alt="">
+        </a>
+    </div>
+    <div class ="col-md-2 col-sm-6">
+       <a href="#" class="img-fluid">
+          <img src="{{ URL::asset('image/6.jpg') }}" class="img-fluid" alt="">
+        </a>
+    </div>  
+  
+       
+
+        
+
+       
+
+        
   </div>
 </div>   
 
