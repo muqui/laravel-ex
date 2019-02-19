@@ -23,14 +23,22 @@
 } 
 .my-carousel {top: -55px;}
 
-.footer {
+.pie {
   background-color: black;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 200px;
+ 
+  min-height: 150px;
+
 }
 
+.row {
+   
+    margin-right: 0px;
+}
+.col-6 {
+	padding-top: 1px;
+     padding-right: 1px;
+     padding-left: 1px; 
+}
 
 @media (max-width: 767px) {
   .my-nav .navbar-nav .open .dropdown-menu > li > a {

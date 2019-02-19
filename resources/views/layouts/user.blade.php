@@ -9,7 +9,7 @@
         <script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}"></script> 
         <script type="text/javascript" src="{{ URL::asset('js/popper.min.js') }}"></script> 
         <script type="text/javascript" src="{{ URL::asset('js/bootstrap.min.js') }}"></script>  
-           
+         
 
     </head>
     <body>
@@ -58,35 +58,38 @@
   </div>
 </nav>
         
-          <div class="container-fluid">
+          <div class="container-fluid ">
             @yield('content')
         </div>
 
-<footer class="footer">
-  <div class="container-fluid text-white">
-    
-    <div class="row">
-      <div class=" sticky-top col-12 col-md-4 col-lg-4">
-        
-        <p>
-          Dirección Calle 0000, Tel. 000 000 00
-          correo@correo.com   
-        </p>
-      </div>
-      <div class="col-12 col-md-4 col-lg-4">
-        
-       
-        <p>Verde Pistache 2018. Aviso de Privacidad.
-         
-        </p>
-      </div>
-      <div class="col-12 col-md-4 col-lg-4">
-        <p>
-          Maoa
-        </p>
-      </div>
+
+<div class="container-fluid  text-white ">
+  <div class="row   align-items-end pie  ">
+    <div class="col-12 col-md-4 col-sm-4  ">
+      <p class="text-center">
+        Dirección Calle 0000, Tel. 000 000 00
+      </p>  
+      <p class="text-center">
+        coronanavarro@gmail.com
+      </p>       
+    </div>  
+    <div class="col-12 col-md-4 col-sm-4  ">
+      <p class="text-center">
+        Alberto Corona 2019.
+      </p>  
+           
+    </div>
+    <div class="col-12 col-md-4 col-sm-4   ">
+      <p class="text-center">
+        Terminos y condiciones
+      </p>  
+           
     </div>
   </div>
-</footer>
+</div>
+
+
+
+
     </body>
 </html>
